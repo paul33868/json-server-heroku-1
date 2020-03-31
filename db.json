@@ -1,16 +1,35 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+  "persona": [
     {
       "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "nombre": "Dante",
+      "apellido": "Arrighi",
+      "email": "dante@arreghi.com",
+      "tipoDocumento": "DNI",
+      "numeroDocumento": "3465789",
+      "claveFiscal": "asjdkel2890",
+      "claveSeguridadSocial": "jfshgfs232",
+      "fechaNacimiento": "02/05/1989",
+      "telefono": "3415674849",
+      "user": "dantearreghi",
+      "tramites": [
+        {
+          "tramite": {
+            "id": 0,
+            "estado": "Iniciado",
+            "tipoTramite": "Reajuste",
+            "historial": [
+              {
+                "id": 0,
+                "descripcion": "Revisión haber de invalidez. Expediente en UDAI La Plata.",
+                "fechaDetalle": "20/02/2020"
+              }
+            ],
+            "expediente": "024-20-12274655-1-974-1",
+            "comentarios": "El beneficiario solicita reajuste por una pensión derivada por el fallecimiento de su esposa quien estaba jubilada por ley 24.241. El beneficio de la esposa es el 15-0-465821321-1."
+          }
+        }
+      ]
     }
   ]
 }
