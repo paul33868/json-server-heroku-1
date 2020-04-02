@@ -6,38 +6,64 @@
       "id": 1
     }
   ],
-  "persona": [
+  "clientes": [
     {
       "id": 0,
       "nombre": "Dante",
       "apellido": "Arrighi",
       "email": "dante@arreghi.com",
       "tipoDocumento": "DNI",
-      "numeroDocumento": "3465789",
-      "cuil": "20-3465789-9",
+      "documentoNro": "3465789",
+      "fechaNacimiento": "02/05/1989",
       "claveFiscal": "asjdkel2890",
       "claveSeguridadSocial": "jfshgfs232",
-      "fechaNacimiento": "02/05/1989",
+      "cuil": "20-3465789-9",
       "telefono": "3415674849",
       "user": "dantearreghi",
-      "tramites": [
+      "casos": [
         {
-          "tramite": {
-            "id": 0,
-            "estado": "Iniciado",
-            "tipoTramite": "Reajuste",
-            "historial": [
-              {
-                "id": 0,
-                "descripcion": "Revisión haber de invalidez. Expediente en UDAI La Plata.",
-                "fechaDetalle": "20/02/2020"
-              }
-            ],
-            "expediente": "024-20-12274655-1-974-1",
-            "comentarios": "El beneficiario solicita reajuste por una pensión derivada por el fallecimiento de su esposa quien estaba jubilada por ley 24.241. El beneficio de la esposa es el 15-0-465821321-1."
-          }
+          "id": 0,
+          "estado": "Iniciado",
+          "tipoTramite": "Reajuste",
+          "movimientos": [
+            {
+              "id": 0,
+              "descripcion": "Revisión haber de invalidez. Expediente en UDAI La Plata.",
+              "fechaDetalle": "20/02/2020"
+            }
+          ],
+          "expediente": "024-20-12274655-1-974-1",
+          "comentarios": "El beneficiario solicita reajuste por una pensión derivada por el fallecimiento de su esposa quien estaba jubilada por ley 24.241. El beneficio de la esposa es el 15-0-465821321-1."
         }
       ]
+    }
+  ],
+  "pagos": [
+    {
+      "id": 0,
+      "cliente": {
+        "id": 1,
+        "nombre": "Carlos",
+        "apellido": "Gardel",
+        "claveFiscal": "12345",
+        "claveSeguridadSocial": "12345",
+        "documentoTipo": "DNI",
+        "documentoNro": 34567897,
+        "email": "carlos.gardel@gmail.com",
+        "fechaNacimiento": "01/09/1910",
+        "telefono": "+543416789654",
+        "casos": [],
+        "user": {
+          "name": "Carlos",
+          "lastName": "Gardel",
+          "email": "carlos.gardel@gmail.com",
+          "password": "12345"
+        }
+      },
+      "estado": "impago",
+      "total": 15000,
+      "fechaPrimerPago": "10/05/2020",
+      "cuotas": []
     }
   ]
 }
