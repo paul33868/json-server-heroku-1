@@ -1,11 +1,4 @@
 {
-  "users": [
-    {
-      "email": "olivier@mail.com",
-      "password": "$2a$10$76IYORJuvezpTjeqECxsFObesVCmWCU4JzGB8KAujJDztn1XnmQ2K",
-      "id": 1
-    }
-  ],
   "clientes": [
     {
       "id": 0,
