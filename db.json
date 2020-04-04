@@ -33,6 +33,7 @@
   ],
   "pagos": [
     {
+      "id": 1,
       "cliente": "Carlos Gradel",
       "estado": "impago",
       "total": 15000,
