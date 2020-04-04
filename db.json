@@ -33,26 +33,7 @@
   ],
   "pagos": [
     {
-      "id": 0,
-      "cliente": {
-        "id": 1,
-        "nombre": "Carlos",
-        "apellido": "Gardel",
-        "claveFiscal": "12345",
-        "claveSeguridadSocial": "12345",
-        "documentoTipo": "DNI",
-        "documentoNro": 34567897,
-        "email": "carlos.gardel@gmail.com",
-        "fechaNacimiento": "01/09/1910",
-        "telefono": "+543416789654",
-        "casos": [],
-        "user": {
-          "name": "Carlos",
-          "lastName": "Gardel",
-          "email": "carlos.gardel@gmail.com",
-          "password": "12345"
-        }
-      },
+      "cliente": "Carlos Gradel",
       "estado": "impago",
       "total": 15000,
       "fechaPrimerPago": "10/05/2020",
